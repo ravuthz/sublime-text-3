@@ -1,0 +1,4 @@
+{
+    "cmd": ["git","add", ".", "&&", "git", "commit", "-am", "commit with sublime auto message."],
+    "shell": true
+}

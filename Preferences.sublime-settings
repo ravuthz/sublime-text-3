@@ -1,0 +1,22 @@
+{
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_face": "monaco",
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Code Runner",
+		"Markdown",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"numix_folder_icons": true,
+	"overlay_scroll_bars": "enabled",
+	"tab_size": 4,
+	"tabs_medium": true,
+	"theme": "Numix Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
+}

@@ -1,0 +1,42 @@
+{
+	"excludes":
+	[
+		"GeneratePHPDoc",
+		"PrettyPrintDocBlocks",
+		"RestoreComments",
+		"StripNewlineAfterClassOpen",
+		"AlignDoubleSlashComments",
+		"AlignTypehint",
+		"DocBlockToComment",
+		"YodaComparisons",
+		"AutoPreincrement",
+		"CakePHPStyle"
+	],
+	"format_on_save": true,
+	"indent_with_space": 4,
+	"passes":
+	[
+		"StripExtraCommaInArray",
+		"JoinToImplode",
+		"ShortArray",
+		"AlignPHPCode",
+		"AlignGroupDoubleArrow",
+		"ConvertOpenTagWithEcho",
+		"IndentTernaryConditions",
+		"SpaceBetweenMethods",
+		"ReindentSwitchBlocks",
+		"ReindentAndAlignObjOps",
+		"StripNewlineAfterCurlyOpen",
+		"StripSpaceWithinControlStructures",
+		"AlignGroupDoubleArrow",
+		"WrongConstructorName",
+		"ReplaceBooleanAndOr",
+		"ReplaceIsNull",
+		"AddMissingParentheses",
+		"MildAutoPreincrement"
+	],
+	"php_bin": "D:\\xampp-composer\\php\\php.exe",
+	"psr1": true,
+	"psr1_naming": false,
+	"version": 4
+}

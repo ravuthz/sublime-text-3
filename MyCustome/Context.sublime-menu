@@ -1,0 +1,29 @@
+[
+    {
+        "id": "custome_context",
+        "caption": "Custome Context",
+        "children":
+        [
+            {
+                "caption": "Lint Mode",
+                "children":
+                [
+                    {
+                        "command": "sublimelinter_choose_lint_mode", "args": {"value": "Background"}
+                    },
+                    {
+                        "command": "sublimelinter_choose_lint_mode", "args": {"value": "Load/save"}
+                    },
+                    {
+                        "command": "sublimelinter_choose_lint_mode", "args": {"value": "Save only"}
+                    },
+                    {
+                        "command": "sublimelinter_choose_lint_mode", "args": {"value": "Manual"}
+                    },
+                    
+                ]
+            },
+
+        ]
+    }
+]

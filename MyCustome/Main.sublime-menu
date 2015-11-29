@@ -1,0 +1,66 @@
+[
+    {"caption": "Help", "id": "help" }, // append the menu below after this Help menu
+	{"caption": "|" },
+	{"caption": "SaveAll", "id": "save_all", "command": "save_all"},
+	{"caption": "|" },
+	{"caption": "Build", "id": "build", "command": "build"},
+	{"caption": "|" },
+	{"caption": "AnaDoc", "id": "anaconda_doc", "command": "anaconda_doc"},
+	{"caption": "|" },
+	{"caption": "FoldCmt", "id": "toggle_fold_comments", "command": "toggle_fold_comments"},
+
+	{"caption": "|"}, // Git Menu
+    {
+		"caption": " Git ",
+		"id": "git",
+		"mnemonic": "g",
+		"children": [
+
+			{"caption": "-"},
+            {"caption": "Init","command": "side_bar_git_init","args": {"paths": []}},
+            {"caption": "Clone","command": "side_bar_git_clone","args": {"paths": []}},
+			{"caption": "-"},
+            {"caption": "Add","command": "side_bar_git_add","args": {"paths": []}},
+            {"caption": "Commit", "command": "side_bar_git_commit","args": {"paths": []}},
+            {"caption": "Commit Undo","command": "side_bar_git_commit_undo","args": {"paths": []}},
+            {"command": "side_bar_git_push", "caption": "Push","args": {"paths": []}},
+            {"caption": "-"},
+			{"caption": "Add & Commit", "command": "side_bar_git_add_commit","args": {"paths": []}},
+			{"caption": "Add & Commit & Push", "command": "side_bar_git_add_commit_push","args": {"paths": []}},
+			{"caption": "-"},
+			{"caption": "Add to Git Ignore","command": "side_bar_git_ignore_add","args": {"paths": []} },
+            {"caption": "Open Git Ignore","command": "side_bar_git_ignore_open","args": {"paths": []} },
+			{"caption": "-"},
+			{"caption": "Pull","command": "side_bar_git_pull","args": {"paths": []}},
+			{ "caption": "-"},
+            {
+                "caption": "Diff", "id":"side-bar-git-diff",
+                "children":
+                [
+                    { "caption": "all changes since the last commit","command": "side_bar_git_diff_all_changes_since_last_commit",                                               "args": {"paths": []} },
+                    { "caption": "all changes since the last commit ( ignore whitespace )",         "command": "side_bar_git_diff_all_changes_since_last_commit_ignore_white_space",                                                "args": {"paths": []} },
+                    { "caption": "-"},
+                    { "caption": "changes that have not been staged","command": "side_bar_git_diff_changes_not_staged",                                              "args": {"paths": []} },
+                    { "caption": "changes that are staged but not committed","command": "side_bar_git_diff_changes_staged_not_commited",                                                 "args": {"paths": []} },
+                    { "caption": "between the index and last commit","command": "side_bar_git_diff_between_index_and_last_commit",                                               "args": {"paths": []} },
+                    { "caption": "-"},
+                    { "caption": "between remote and last local commit (origin/master..)","command": "side_bar_git_diff_between_remote_and_last_local_commit",                                                "args": {"paths": []} },
+                    { "caption": "between last local commit and remote (..origin/master)","command": "side_bar_git_diff_between_last_local_commit_and_remote",                                                "args": {"paths": []} },
+                    { "caption": "-"},
+                    { "caption": "between the two latest tags","command": "xxxx",                                              "args": {"paths": []} }
+                ]
+            },
+			{"caption": "-"},
+			{ "caption": "Git GUI","command": "side_bar_git_gui","args": {"paths": []} },
+            { "caption": "Gitk","command": "side_bar_git_gitk","args": {"paths": []} },
+            { "caption": "-"},
+            { "caption": "Liberal Git Command","command": "side_bar_git_liberal","args": {"paths": []}}
+
+		]
+	},
+	{"caption": "|"}, // End Git Menu
+
+    {"caption": "Side Bar", "command": "toggle_side_bar"},
+
+
+]

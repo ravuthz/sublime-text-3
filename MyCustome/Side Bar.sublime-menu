@@ -1,0 +1,11 @@
+[
+	{ "caption": "-" },
+	{
+		"caption": "Sidebar Menu",
+		"children":
+		[
+			{ "caption": "Upload File", "command": "", "args": {"paths": []} },
+			
+		]
+	}
+]

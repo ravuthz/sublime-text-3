@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+try {
+  \$con = new PDO("mysql:host=$db_host;dbname=$db_name;user=$db_user;password=$db_pass");
+  echo "Connected";
+} catch (Exception \$e) {
+  echo "Unable to connect: " . \$e->getMessage() ."<p>";
+}
+]]></content>
+    <tabTrigger>pdo()</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create PDO Object</description>
+</snippet>
